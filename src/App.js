@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <h1>Debouncing example</h1>
-      <CityFilter cities={cities}/>
-      {/* <CityFilterDebounce cities={cities}/> */}
+      {/* <CityFilter cities={cities}/> */}
+      <CityFilterDebounce cities={cities}/>
     </div>
   );
 }
